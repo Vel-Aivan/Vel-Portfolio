@@ -1,0 +1,249 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #111111;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: #111111;
+  height: 5em;
+  top: 0;
+}
+.title img {
+  height: 20px;
+  margin-left: 20px;
+}
+
+.ham {
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 13px;
+  border-radius: 18px;
+  color: #ffffff;
+  font-size: 23px;
+  transition: .5s ease-in-out
+}
+
+#home {
+  width: 100%;
+  height: 45vh;
+}
+
+.main-header {
+  margin: 10em 10px 0px 15px;
+}
+
+.title {
+  color: white;
+}
+
+.inf-1 {
+  color: #5f7adb;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.inf-2 {
+  color: dimgray;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: left;
+}
+
+#profile {
+  height: 60vh;
+  background-color: #5f7adb;
+  padding-top: 50px;
+}
+
+.profile img {
+  height: 150px;
+  border: 5px solid #ffffff;
+  padding: 5px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.prof-name {
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.grade {
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+}
+
+.prof-descrp {
+  text-align: center;
+  margin-top: 15px;
+  margin: 15px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.contact a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #5f7adb;
+  background-color: #ffffff;
+  text-decoration: none;
+  width: 100px;
+  padding: 15px;
+  border-radius: 7px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#work {
+  height: 110vh;
+  padding-top: 50px;
+}
+
+.work {
+  text-align: center;
+  color: #5f7adb;
+}
+
+.work-des {
+  text-align: center;
+  color: dimgray;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.work-cont {
+  margin: 50px 20px 0px 20px;
+}
+
+.work-cont img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.work-name {
+  color: #5f7adb;
+  margin: 15px;
+  text-align: center;
+}
+
+#services {
+  height: 55vh;
+  padding-top: 20px;
+  background-color: #5f7adb;
+}
+
+.srvc-h {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.services-des {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.services-cont {
+  margin: 60px 0px 0px 15px;
+}
+
+.services-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 1em 0px 0px 15px;
+  border-radius: 10px;
+  gap: 3em;
+}
+
+.fa-brush, .fa-gear {
+  font-size: 40px;
+}
+
+.web-des {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#contact {
+  height: 65vh;
+}
+
+.contact-h {
+  text-align: center;
+  color: #5f7adb;
+  margin-top: 30px;
+}
+
+.contact-des {
+  text-align: center;
+  color: dimgray;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.fa-envelope, .fa-location-dot {
+  font-size: 25px;
+  margin-top: 70px;
+  margin-left: 30px;
+  color: #5f7adb;
+}
+
+.mail-quest {
+  margin: 10px;
+  padding-top: 20px;
+  color: #ffffff
+}
+
+.concern {
+  margin: 10px;
+  color: dimgray;
+  font-size: 13px;
+}
+
+.email-me {
+  color: #5f7adb;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.fa-arrow-up {
+  color: 5f7adb;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+  padding: 18px;
+  position: fixed;
+  top: 85%;
+  left: 80%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.top a {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 100%; 
+  color: #5f7adb;
+}
